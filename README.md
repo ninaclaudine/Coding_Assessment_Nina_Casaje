@@ -30,7 +30,7 @@ This application manages drones and their medication loads. It allows for the re
 
 1. **Clone the repository:**
 
-git clone [https://github.com/ninaclaudine/drone_Nina_Casaje.git](https://github.com/ninaclaudine/drone_Nina_Casaje.git)
+git clone [[[https://github.com/ninaclaudine/drone_Nina_Casaje.git](https://github.com/ninaclaudine/drone_Nina_Casaje.git)](https://github.com/ninaclaudine/Coding_Assessment_Nina_Casaje)](https://github.com/ninaclaudine/Coding_Assessment_Nina_Casaje.git)
 
 2. **Import and Build Project:**
 Make sure you have Maven installed
