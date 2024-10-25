@@ -30,8 +30,7 @@ This application manages drones and their medication loads. It allows for the re
 
 1. **Clone the repository:**
 
-git clone https://github.com/ninaclaudine/drone_Nina_Casaje.git
-cd drone-delivery-service
+git clone [https://github.com/ninaclaudine/drone_Nina_Casaje.git](https://github.com/ninaclaudine/drone_Nina_Casaje.git)
 
 2. **Import and Build Project:**
 Make sure you have Maven installed
@@ -55,7 +54,8 @@ Make sure you have Maven installed
 2. JDBC URL: jdbc:h2:file:./data/testdb
 
 it should be like this:
-![img_1.png](img_1.png)
+![image](https://github.com/user-attachments/assets/58a9b072-813e-4856-a1b1-27ca177fdb70)
+
 
 3. Then test the connection if success click the connect and start the transaction/Testing.
 ## API Endpoints
@@ -66,7 +66,8 @@ Postman Collection is also included in the github.
 
    **Endpoint:** POST /api/drones
    **Request Body:**
-   ![img.png](img.png)
+   ![image](https://github.com/user-attachments/assets/293ee571-62c4-432d-bf73-8196e5c85f1f)
+
 
    **Response:** Returns the registered drone.
 
