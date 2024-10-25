@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "854e361d-2144-41ed-b476-57e9f891c2c4",
+		"name": "Drone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"serialNumber\": \"002\",\n    \"model\": \"LIGHTWEIGHT\",\n    \"weightLimit\": 600,\n    \"batteryCapacity\": 200,\n    \"state\": \"IDLE\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/drone/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"drone",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DroneView",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/drone/view",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"drone",
+						"view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DroneStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/drone/3/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"drone",
+						"3",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loadDrone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/drone/2/1/load",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"drone",
+						"2",
+						"1",
+						"load"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
